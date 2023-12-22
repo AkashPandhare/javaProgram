@@ -19,8 +19,6 @@ public class Select_Dropdow {
 	WebElement drop1=	driver.findElement(By.xpath("//select[@id='products-pagesize']"));
 	Select  s1=new  Select(drop1);
 	s.selectByValue("value=\"https://demowebshop.tricentis.com/digital-downloads?pagesize=12");
-
-	
 	}
 
 }
