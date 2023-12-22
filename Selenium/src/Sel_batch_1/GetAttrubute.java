@@ -20,7 +20,7 @@ public class GetAttrubute {
 		String link=e.getAttribute("href");
 			
 		System.out.println(link);
-)
+
 	
 		}
 	}
