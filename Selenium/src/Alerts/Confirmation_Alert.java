@@ -12,7 +12,7 @@ public class Confirmation_Alert {
 		
 		driver.findElement(By.xpath("//button[@id='confirm']")).click();
 		Alert  a1=driver.switchTo().alert();
-		//a.accept();  //click OK
+		//a.accept();  //click OK//////
 		a1.dismiss();   //Click  cancel 
 		//a.getText();
 }
