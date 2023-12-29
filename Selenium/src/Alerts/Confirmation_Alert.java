@@ -1,5 +1,5 @@
 package Alerts;
-
+//package
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +13,7 @@ public class Confirmation_Alert {
 		driver.findElement(By.xpath("//button[@id='confirm']")).click();
 		Alert  a1=driver.switchTo().alert();
 		//a.accept();  //click OK
-		a1.dismiss();   //Click  cancel
+		a1.dismiss();   //Click  cancel 
 		//a.getText();
 }
 }
